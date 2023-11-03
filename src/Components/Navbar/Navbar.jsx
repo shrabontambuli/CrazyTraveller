@@ -14,7 +14,7 @@ const Navbar = () => {
 
     return (
         <>
-            <div className="navbar fixed z-50 max-w-screen-4xl bg-black bg-opacity-20 font-semibold text-white lg:px-10 top-0">
+            <div className="navbar fixed z-50 max-w-screen-4xl bg-black bg-opacity-40 font-semibold text-white lg:px-10 top-0">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn lg:hidden">
@@ -25,8 +25,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className="flex items-center">
-                        <img className="lg:w-24" src='' alt="" />
-                        <p className="ms-2 lg:text-xl text-center text font-serif font-semibold">CrazyTraveller</p>
+                        <p className="lg:ms-36 lg:text-2xl text-center text font-serif font-semibold">CrazyTraveller</p>
                     </div>
                 </div>
                 <div className="navbar-center hidden lg:flex">
@@ -35,7 +34,7 @@ const Navbar = () => {
                     </ul>
                 </div>
 
-                <div className="navbar-end">
+                <div className="navbar-end lg:me-36">
                     {/* <img className="w-16 h-16 rounded-full" alt="" /> */}
                     <Link to='/'>Sign In</Link>
                     <Link to="/"><button className='btn ms-4 lg:ms-7'>SingUp</button></Link>

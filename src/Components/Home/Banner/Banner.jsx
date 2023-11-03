@@ -4,10 +4,10 @@ const Banner = () => {
     return (
         <div>
             <div>
-                <div className="hero min-h-screen" style={{ backgroundImage: `url("/images/banner.jpg")` }}>
+                <div className="hero min-h-screen md:pb-10" style={{ backgroundImage: `url("/images/banner.jpg")` }}>
                     <div className="hero-content text-center lg:text-left">
                         <div className="max-w-md lg:max-w-full">
-                            <h1 className="text-3xl text-white font-extralight mb-5">Explorer and Travel</h1>
+                            <h1 className="text-3xl text-white font-extralight mb-5 mt-8 md:mt-20">Explorer and Travel</h1>
                             <h1 className="text-7xl text-white font-bold">Let’s Go Now</h1>
                             <p className="py-6 text-white">Explore is one of the worlds leading small group adventure travel companies. Explore adventures go beyond a vacation to give you an authentic travel experience. The Explore formula is simple: small, international groups of like-minded people, getting off the beaten track and not just seeing a place, but really experiencing it.</p>
 
