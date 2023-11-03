@@ -25,7 +25,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className="flex items-center">
-                        <p className="lg:ms-36 lg:text-2xl text-center text font-serif font-semibold">CrazyTraveller</p>
+                        <p className="lg:ms-36 lg:text-2xl text-center bg px-2 py-2 rounded-lg font-serif font-semibold">CrazyTraveller</p>
                     </div>
                 </div>
                 <div className="navbar-center hidden lg:flex">
