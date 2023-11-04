@@ -16,6 +16,7 @@
 .text {
     color: #EE1C45;
 }
+
 .bg1 {
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.80) 0.23%, rgba(0, 0, 0, 0.00) 99.74%);
 }
@@ -35,4 +36,9 @@
 .div2 {
     border-radius: 6px;
     background: #FFF9F0;
+}
+
+.input1 {
+    background: rgba(255, 255, 255, 0.20);
+    color: #FFF9F0;
 }
