@@ -8,7 +8,7 @@ const Activity = () => {
                 <h1 className='text-7xl text-black font-light'>ACTIVITY</h1>
                 <p className='w-9/12 mx-auto mt-6'>The countries and areas related to the Belt and Road Initiative span the six economic corridors across Africa, the Americas, Asia, Europe, and Oceania. Along these countries and areas, a wide variety of historical cities, natural landscapes, and outdoor adventure await you. Join GreaterGo in in-depth explorations around the Belt and Road now!</p>
             </div>
-            <div className='container mx-auto mt-28 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center items-center gap-5'>
+            <div className='container mx-auto mt-28 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center items-center gap-5'>
                 <div className='div1 w-96 text-center px-4 py-10'>
                     <svg className='mx-auto' xmlns="http://www.w3.org/2000/svg" width="127" height="122" viewBox="0 0 127 122" fill="none">
                         <g clip-path="url(#clip0_12_2)">
