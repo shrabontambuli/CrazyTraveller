@@ -1,12 +1,20 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
-const Gallery = () => {
+const Tours = () => {
+
+    // const [tour, setTour] = useState([]);
+    // useEffect(() => {
+    //     fetch('/data.json')
+    //         .then(res => res.json())
+    //         .then(data => setTour(data))
+    // }, [])
+    // console.log(tour);
+
     return (
-        <div>
+        <div className='py-10'>
             <div className='text-center mt-20'>
-                <h3 className='text-5xl text font-light mb-5'>Choose your</h3>
-                <h1 className='text-7xl text-black font-light'>Tour Places</h1>
+                <h3 className='text-5xl text font-light mb-5'>Your Tours</h3>
+                <h1 className='text-7xl text-black font-light'>Most Touring Places</h1>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 justify-items-center items-center gap-5 mt-20 container mx-auto'>
                 <div>
@@ -45,12 +53,10 @@ const Gallery = () => {
                 </div>
             </div>
             <div className='text-center mt-16'>
-                <Link to='/tour'>
-                    <button className='btn text-white'>View More</button>
-                </Link>
+                <button className='btn text-white'>View More</button>
             </div>
         </div>
     );
 };
 
-export default Gallery;
+export default Tours;

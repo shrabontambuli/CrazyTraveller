@@ -1,6 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const TourPackages = () => {
+
+    
     return (
         <div>
             <div className='text-center mt-20'>
@@ -45,6 +48,11 @@ const TourPackages = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className='text-center mt-16'>
+                <Link to='/destination'>
+                    <button className='btn text-white'>View More</button>
+                </Link>
             </div>
         </div>
     );
